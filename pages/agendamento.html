@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600&family=Sora:wght@300;400;500;600&display=swap"
-  rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-  integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <link rel="stylesheet" href="../css/teste.css">
+<html lang="pt">
 <head>
-<link rel="shortcut icon" type="image/jpg" href="../assets/logo-d_cortes.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seuelias | Serviços</title>
+    <link rel="stylesheet" href="../css/teste.css">
 </head>
-
 <body>
-  <div class="card">
-    <img class="card-image" src="/assets/lf.png" alt="Imagem de Exemplo">
-    <div class="card-content">
-      <h2>Marque seu horário</h2>
-      <p>Escolha a data e hora desejadas:</p>
-      <br>
-      <button class="btn-book" id="book-button">Acessar Agenda</button>
+    <header>
+        <nav>
+            <a href="/"><img src="../assets/logo-d'cortes.PNG"  style="width: 150px;" alt=""></a>
+            <ul>
+                <li><a href="/servicos/">Serviços</a></li>
+                <li><a href="/contato/">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <!-- Formulário de Agendamento (inicialmente oculto) -->
-      <div class="form-container" id="booking-form">
-        <h3>Preencha o formulário de agendamento</h3>
-        <input type="text" placeholder="Nome" required>
-        <input type="email" placeholder="Email"required>
-        <input type="email" placeholder="Serviço Desejado" required>
-        <input type="date" placeholder="Data"required>
-        <input type="time" placeholder="Hora" required>
+    <main>
+        <section class="banner">
+            <h1>Seuelias | Serviços</h1>
+        </section>
 
-        <button class="btn-book" id="submit-button">Enviar</button>
-      </div>
-    </div>
-  </div>
+        <section class="services">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <img src="design-servico.png" alt="Design de Produto">
+                <h3>Design de Produto</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus mauris turpis, ac pellentesque mauris auctor ut.</p>
+            </div>
+            <div class="service">
+                <img src="codigo-servico.png" alt="Desenvolvimento de Software">
+                <h3>Desenvolvimento de Software</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus mauris turpis, ac pellentesque mauris auctor ut.</p>
+            </div>
+            <div class="service">
+                <img src="ui-ux-servico.png" alt="UI/UX Design">
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus mauris turpis, ac pellentesque mauris auctor ut.</p>
+            </div>
+        </section>
+    </main>
 
-  <script src="../js/agenda.js"></script>
+    <footer>
+        <p>&copy; 2021 Seuelias. Todos os direitos reservados.</p>
+    </footer>
 </body>
-
 </html>

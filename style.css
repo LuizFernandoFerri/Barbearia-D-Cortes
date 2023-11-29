@@ -198,6 +198,38 @@ i {
     flex-direction: column;
   }
 }
+
+.video-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.custom-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 3em;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.custom-play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
 .services {
   background-color: #FFF;
   color: #232224;
