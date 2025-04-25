@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="D'Cortes - Barbearia especializada em cortes modernos e tratamentos capilares">
+  <meta name="theme-color" content="#121212">
+  
+  <!-- Fontes e Ícones -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Animações e CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  
+  <title>D'Cortes - Barbearia Premium</title>
+  <link rel="shortcut icon" type="image/jpg" href="assets/logo-d_cortes.png">
+</head>
+<body>
+  <!-- HEADER -->
+  <div class="bg-home">
+    <!-- Imagem de fundo adicionada diretamente no HTML -->
+    <div class="background-overlay">
+      <img src="assets/bg.jpg" alt="Fundo Barbearia" class="bg-image">
+    </div>
+    
+    <header>
+      <nav class="header-content container">
+        <!-- Menu hambúrguer à esquerda -->
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        
+        <!-- Logo desktop (oculta em mobile) -->
+        <div class="header-logo desktop-only" data-aos="fade-down">
+          <img 
+            src="assets/logo-d_cortes.png" 
+            alt="Logo D'Cortes Barbearia" 
+            class="logo-img">
+        </div>
+        
+        <!-- Logo mobile (visível apenas em mobile) -->
+        <div class="mobile-header-logo">
+          <img 
+            src="assets/logo-d_cortes.png" 
+            alt="Logo D'Cortes Barbearia" 
+            class="mobile-logo-img">
+        </div>
+        
+        <div class="header-menu" data-aos="fade-down">
+          <ul class="menu-desktop">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#location">Localização</a></li>
+          </ul>
+        </div>
+        
+        <div class="header-actions hide-on-mobile" data-aos="fade-down">
+          <div class="header-icons">
+            <a href="https://www.instagram.com/andersonnewschool/" target="_blank" aria-label="Instagram">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://api.whatsapp.com/message/OAVZ3MR7XKQKL1?autoload=1&app_absent=0" target="_blank" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp fa-lg"></i>
+            </a>
+          </div>
+          
+        </div>
+      </nav>
+      
+      <!-- Mobile Menu - Compacto e Otimizado -->
+      <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+          <img src="assets/logo-d_cortes.png" alt="Logo D'Cortes" class="mobile-logo">
+          <div class="close-menu" id="close-menu">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <ul class="mobile-nav-menu text-center">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#location">Localização</a></li>
+        </ul>
+        <div class="mobile-actions">
+          <a href="hhttps://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true class="mobile-button text-center" target="_blank">
+            <i class="fa-solid fa-calendar-check"></i> Agendar
+          </a>
+          <div class="mobile-social">
+            <a href="https://www.instagram.com/andersonnewschool/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/message/OAVZ3MR7XKQKL1?autoload=1&app_absent=0" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Hero Section - Aprimorado -->
+      <div class="hero-wrapper" id="home">
+        <main class="hero container" data-aos="fade-up" data-aos-delay="300">
+          <h1>ESTILO É UM REFLEXO DA SUA <span class="highlight-text">ATITUDE</span> E SUA <span class="highlight-text">PERSONALIDADE</span>.</h1>
+          <div class="hero-info">
+            <div class="hero-info-item">
+              <i class="fa-regular fa-clock"></i>
+              <p>Horário de funcionamento:<br><span>09:00 às 19:00</span></p>
+            </div>
+            <div class="hero-info-item">
+              <i class="fa-solid fa-scissors"></i>
+              <p>Cortes modernos e<br><span>tratamentos exclusivos</span></p>
+            </div>
+          </div>
+          <div class="cta-container">
+            <a href="hhttps://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true
+              class="button-contact" target="_blank">
+              Agendar horário <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </main>
+      </div>
+    </header>
+    
+    <!-- Gradiente entre seções - Aprimorado -->
+    <div class="section-gradient"></div>
+  </div>
+  
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-title" data-aos="fade-right">
+          <h2>Sobre a D'Cortes</h2>
+          <div class="underline"></div>
+          <p>Mais do que uma barbearia, somos um espaço de transformação e estilo para homens que valorizam qualidade e exclusividade.</p>
+        </div>
+        
+        <div class="about-video" data-aos="fade-left" data-aos-delay="200">
+          <div class="video-container">
+            <video controls autoplay loop muted>
+              <source src="assets/Derson.mp4" type="video/mp4">
+              Seu navegador não suporta o vídeo.
+            </video>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-features" data-aos="fade-up">
+        <div class="feature">
+          <i class="fa-solid fa-medal"></i>
+          <h3>Expertise</h3>
+          <p>Profissionais com anos de experiência e treinamento constante</p>
+        </div>
+        
+        <div class="feature">
+          <i class="fa-solid fa-spray-can"></i>
+          <h3>Produtos Premium</h3>
+          <p>Utilizamos apenas as melhores marcas do mercado</p>
+        </div>
+        
+        <div class="feature">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h3>Satisfação</h3>
+          <p>Cliente satisfeito é nossa prioridade número um</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="services-content container">
+      <h2 data-aos="fade-down">Nossos Serviços</h2>
+      <div class="underline" data-aos="fade-down"></div>
+      
+      <p data-aos="fade-up">
+        Oferecemos uma gama de serviços que vão além do simples corte de cabelo. Com técnicas diferenciadas
+        para barba, garantimos um acabamento perfeito que realça a masculinidade de nossos clientes. Além disso, somos
+        reconhecidos pela excelência em cortes afro, entendendo a importância de técnicas específicas para diferentes tipos de
+        cabelo. Se a busca é por um visual moderno e arrojado, também oferecemos o serviço de platinado, transformando os
+        cabelos em verdadeiras obras de arte! E diversos outros serviços exclusivos.
+      </p>
+    </div>
+    
+    <div class="container">
+      <div class="haircuts">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+          <div class="haircut-image">
+            <img src="assets/flashTop.PNG" alt="Corte com Flash Top" />
+            <div class="haircut-tag">Popular</div>
+          </div>
+          <div class="haircut-info text-center">
+            <h3>Corte + Flash Top</h3>
+            <p>Estilo moderno com acabamento perfeito nas laterais</p>
+            <a href="https://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true&pId=1095877" class="haircut-button" target="_blank">
+              <i class="fa-solid fa-calendar-check"></i> Agendar
+            </a>
+          </div>
+        </div>
+        
+        <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+          <div class="haircut-image">
+            <img src="assets/barba.PNG" alt="Barba alinhada" />
+          </div>
+          <div class="haircut-info text-center">
+            <h3>Barba Alinhada</h3>
+            <p>Modelagem com técnicas exclusivas</p>
+            <a href="https://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true" class="haircut-button" target="_blank">
+              <i class="fa-solid fa-calendar-check"></i> Agendar
+            </a>
+          </div>
+        </div>
+        
+        <div class="haircut" data-aos="fade-up" data-aos-delay="350">
+          <div class="haircut-image">
+            <img src="assets/Capturar.PNG" alt="Platinado" />
+          </div>
+          <div class="haircut-info text-center">
+            <h3>Platinado</h3>
+            <p>Visual arrojado com técnicas avançadas</p>
+            <a href="https://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true" class="haircut-button" target="_blank">
+              <i class="fa-solid fa-calendar-check"></i> Agendar
+            </a>
+          </div>
+        </div>
+        
+        <div class="haircut" data-aos="fade-up" data-aos-delay="450">
+          <div class="haircut-image">
+            <img src="assets/Freestyle.png" alt="Freestyle" />
+          </div>
+          <div class="haircut-info text-center">
+            <h3>Freestyle</h3>
+            <p>Desenhos personalizados para seu estilo único</p>
+            <a href="https://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true" class="haircut-button" target="_blank">
+              <i class="fa-solid fa-calendar-check"></i> Agendar
+            </a>
+          </div>
+        </div>
+        
+        <div class="haircut" data-aos="fade-up" data-aos-delay="550">
+          <div class="haircut-image">
+            <img src="assets/pigmentação.png" alt="Corte com Pigmentação" />
+          </div>
+          <div class="haircut-info text-center">
+            <h3>Corte + Pigmentação</h3>
+            <p>Técnica especial para realçar contornos</p>
+            <a href="https://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true" class="haircut-button" target="_blank">
+              <i class="fa-solid fa-calendar-check"></i> Agendar
+            </a>
+          </div>
+        </div>
+        
+        <div class="haircut" data-aos="fade-up" data-aos-delay="650">
+          <div class="haircut-image">
+            <img src="assets/Black.png" alt="Black Power" />
+          </div>
+          <div class="haircut-info text-center">
+            <h3>Black Power</h3>
+            <p>Valorização da beleza afro com técnicas exclusivas</p>
+            <a href="https://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true" class="haircut-button" target="_blank">
+              <i class="fa-solid fa-calendar-check"></i> Agendar
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cta-container" data-aos="zoom-in" data-aos-delay="200">
+        <a href="hhttps://www.fresha.com/pt/a/dcortes-minas-gerais-n-9-vale-do-jatoba-rua-jose-gualberto-do-nascimento-uvzf45k3/booking?allOffer=true&menu=true
+          class="button-contact" target="_blank">
+          Agendar seu horário <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- TEAM SECTION - Nossos Barbeiros -->
+  <section id="team" class="team">
+    <div class="container">
+      <h2 data-aos="fade-down">Nossos Barbeiros</h2>
+      <div class="underline" data-aos="fade-down"></div>
+      
+      <p class="team-intro" data-aos="fade-up">
+        Conheça nossa equipe de profissionais especializados, cada um com técnicas únicas 
+        e habilidades específicas para atender às suas necessidades.
+      </p>
+      
+      <div class="barbers-container">
+        <!-- Barbeiro 1 - Anderson -->
+        <div class="barber-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="barber-image">
+            <img src="assets/dson.jpeg" alt="Anderson NewSchool">
+          </div>
+          <div class="barber-info"> 
+            <h3>
+              Anderson NewSchool 
+              <span class="barber-icons">
+                <a href="https://api.whatsapp.com/message/OAVZ3MR7XKQKL1?autoload=1&app_absent=0" target="_blank" aria-label="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/andersonnewschool/" target="_blank" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </span>
+            </h3>
+            <div class="barber-specialties">
+              <span class="specialty-tag">Cortes Afro</span>
+              <span class="specialty-tag">Black Power</span>
+              <span class="specialty-tag">Barba</span>
+            </div>
+            <p class="barber-description">
+              Fundador da D'Cortes, especialista em cortes afro e técnicas avançadas para valorizar a beleza natural dos cabelos crespos e cacheados.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Barbeiro 2 - Jordane -->
+        <div class="barber-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="barber-image">
+            <img src="assets/jordane.jpeg" alt="Jordane">
+          </div>
+          <div class="barber-info">
+            <h3>
+              Jordane
+              <span class="barber-icons">
+                <a href="https://api.whatsapp.com/" target="_blank" aria-label="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </span>
+            </h3>
+            <div class="barber-specialties">
+              <span class="specialty-tag">Barba</span>
+              <span class="specialty-tag">Platinado</span>
+              <span class="specialty-tag">Pigmentação</span>
+            </div>
+            <p class="barber-description">
+              Especialista em tratamentos de barba e técnicas de coloração, com foco em platinados e pigmentação.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Barbeiro 3 - Wendel -->
+        <div class="barber-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="barber-image">
+            <img src="assets/wendelavatar.jpeg" alt="Wendel Souza">
+          </div>
+          <div class="barber-info">
+            <h3>
+              Wendel Souza
+              <span class="barber-icons">
+                <a href="https://api.whatsapp.com/" target="_blank" aria-label="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </span>
+            </h3>
+            <div class="barber-specialties">
+              <span class="specialty-tag">Black Power</span>
+              <span class="specialty-tag">Desenhos</span>
+              <span class="specialty-tag">Cortes Afro</span>
+            </div>
+            <p class="barber-description">
+              Mestre em cortes afro e desenhos personalizados, com técnicas exclusivas para valorizar a beleza natural.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 data-aos="fade-down">O Que Nossos Clientes Dizem</h2>
+      <div class="underline" data-aos="fade-down"></div>
+      
+      <div class="testimonials-container" data-aos="fade-up">
+        <!-- Depoimento 1 -->
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Melhor barbearia da região! Atendimento personalizado e resultado impecável. O Anderson entende exatamente o que eu quero antes mesmo de eu explicar. Recomendo demais!</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">
+              <img src="assets/avatar-placeholder.svg" alt="Marcos Silva">
+            </div>
+            <div>
+              <h4>Marcos Silva</h4>
+              <p>Avaliação do Google • 3 meses atrás</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Depoimento 2 -->
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Ambiente super agradável e profissionais muito capacitados. O corte degradê que fizeram ficou perfeito, com acabamento impecável. Já virei cliente fiel!</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">
+              <img src="assets/avatar2.svg" alt="Rafael Mendes">
+            </div>
+            <div>
+              <h4>Rafael Mendes</h4>
+              <p>Avaliação do Google • 1 mês atrás</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Depoimento 3 -->
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Finalmente encontrei profissionais que entendem de cabelo afro! O tratamento e o corte black power que fizeram valorizou muito meu estilo. Atendimento nota 10!</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">
+              <img src="assets/avatar3.svg" alt="João Paulo">
+            </div>
+            <div>
+              <h4>João Paulo</h4>
+              <p>Avaliação do Google • 2 meses atrás</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Depoimento 4 -->
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Serviço de primeira! Fiz o corte com pigmentação e o resultado superou minhas expectativas. Equipe muito atenciosa e preço justo pelo trabalho de qualidade.</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">
+              <img src="assets/avatar4.svg" alt="Lucas Oliveira">
+            </div>
+            <div>
+              <h4>Lucas Oliveira</h4>
+              <p>Avaliação do Google • 2 semanas atrás</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Depoimento 5 -->
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Levei meu filho para fazer o primeiro corte e a experiência foi incrível! Paciência, cuidado e um resultado que agradou toda a família. Recomendo para todas as idades!</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">
+              <img src="assets/avatar5.svg" alt="André Santos">
+            </div>
+            <div>
+              <h4>André Santos</h4>
+              <p>Avaliação do Google • 1 mês atrás</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- LOCATION SECTION -->
+  <section id="location" class="location">
+    <div class="container">
+      <h2 data-aos="fade-down">Venha nos Conhecer</h2>
+      <div class="underline" data-aos="fade-down"></div>
+      
+      <div class="location-info" data-aos="fade-right">
+        <div class="address">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h3>Nosso Endereço</h3>
+            <p>Av. Djalma Vieira Cristo, 725 - Vale do Jatoba <br>Belo Horizonte - MG, 30666-140</p>
+          </div>
+        </div>
+        
+        <div class="hours">
+          <i class="fa-regular fa-clock"></i>
+          <div>
+            <h3>Horário de Funcionamento</h3>
+            <p>Segunda a Sábado: 09:00 às 19:00 <br>Domingos e Feriados: <span style="color: red;">Fechado</span/p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Mapa com imagem de preview personalizada -->
+      <div class="map-container" data-aos="zoom-in">
+        <div class="map-preview" id="mapPreview">
+          <img src="assets/map-preview.jpg" alt="Localização da Barbearia D'Cortes" class="map-preview-image">
+          <a href="https://maps.app.goo.gl/RvEAj6UgSGq8pc1h6" 
+             class="load-map-button" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            <i class="fa-solid fa-map-location-dot"></i> Ver no Mapa
+          </a>
+        </div>
+        
+       
+      </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/logo-d_cortes.png" alt="Logo D'Cortes" />
+          <p>Transformando estilos</p>
+        </div>
+        
+        <div class="footer-links hide-on-small-mobile">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#location">Localização</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contato</h3>
+          <p><i class="fa-solid fa-phone"></i> (31) 9999-9999</p>
+          <p><i class="fa-solid fa-envelope"></i> contato@dcortes.com.br</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/andersonnewschool/" target="_blank" aria-label="Instagram" class="social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/message/OAVZ3MR7XKQKL1?autoload=1&app_absent=0" target="_blank" aria-label="WhatsApp" class="social-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" target="_blank" aria-label="Facebook" class="social-icon hide-on-mobile">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" target="_blank" aria-label="YouTube" class="social-icon hide-on-mobile">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 D'Cortes - Todos os direitos reservados | <span class="hide-on-small-mobile">Desenvolvido por Luizrifer</span></p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- WhatsApp Button - Modernizado -->
+  <a href="https://wa.me/message/OAVZ3MR7XKQKL1"
+    class="btn-whatsapp pulsate" target="_blank" data-aos="zoom-in-up" data-aos-delay="400">
+    <img src="assets/whatssapp.svg" alt="Botão WhatsApp" />
+    <span class="tooltip-text">Fale Conosco</span>
+  </a>
+  
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  
+  <!-- Adicione este script de debugging antes de fechar o body -->
+  <script>
+    // Script para verificar carregamento
+    console.log('HTML carregado');
+    window.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM totalmente carregado');
+    });
+    window.addEventListener('load', function() {
+      console.log('Página completamente carregada (incluindo recursos)');
+    });
+    // Verificação de erros
+    window.addEventListener('error', function(e) {
+      console.error('Erro de carregamento:', e.message);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+/* MEDIA QUERIES */
+
+/* Tablet - Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+  /* General adjustments */
+  section {
+    padding: 60px 0;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+  
+  /* Header and navigation */
+  .menu-desktop {
+    gap: 20px;
+  }
+  
+  /* Hero Section */
+  .hero h1 {
+    font-size: 36px;
+    }
+    .about{
+      z-index: -1;
+    }
+  /* About Section */
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+    
+  }
+  
+  .about-video, .about-title {
+    width: 100%;
+  }
+  
+  .about-features {
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    flex: 0 0 calc(50% - 15px);
+    margin-bottom: 30px;
+  }
+  
+  /* Services Section */
+  .haircuts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Team Section */
+  .barbers-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Location Section */
+  .location-info {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  /* Footer */
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile - Small devices (phones, 576px and down) */
+@media (max-width: 768px) {
+  /* General adjustments */
+  section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    font-size: 28px !important;
+  }
+  
+  /* Header and navigation */
+  .header-menu, .header-actions {
+    display: none;
+  }
+  
+  .header-logo.desktop-only {
+    display: none;
+  }
+  
+  .mobile-header-logo {
+    display: block;
+  }
+  
+  .menu-mobile {
+    display: block;
+  }
+  
+  .header-content {
+    justify-content: space-between;
+  }
+  
+  /* Hero Section */
+  .hero h1 {
+    font-size: 30px;
+  }
+  
+  .hero-info p {
+    font-size: 14px;
+  }
+  
+  /* About Section */
+  .about-features {
+    flex-direction: column;
+  }
+  
+  .feature {
+    flex: 0 0 100%;
+  }
+  
+  /* Services Section */
+  .haircuts {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Team Section */
+  .barbers-container {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Location Section */
+  .map-preview {
+    height: 300px;
+  }
+  
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .footer-links, .footer-contact, .footer-logo {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer-links h3::after, .footer-contact h3::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .footer-contact p {
+    justify-content: center;
+  }
+  
+  .footer-social {
+    justify-content: center;
+  }
+  
+  /* WhatsApp Button */
+  .btn-whatsapp {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .btn-whatsapp img {
+    width: 26px;
+    height: 26px;
+  }
+  
+  /* Back to Top Button */
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  /* Utility Classes for Mobile */
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+/* Very Small Mobile Devices */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+  
+  button, .button-contact {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .hide-on-small-mobile {
+    display: none !important;
+  }
+  
+  .mobile-menu {
+    width: 85%;
+    
+  }
+  
+  .haircut-info h3 {
+    font-size: 18px;
+  }
+  
+  .haircut-info p {
+    font-size: 14px;
+  }
+  
+  .testimonial {
+    padding: 20px;
+  }
+  
+  .testimonial-text p {
+    font-size: 14px;
+  }
+  
+  .map-preview {
+    height: 250px;
+  }
+} 
